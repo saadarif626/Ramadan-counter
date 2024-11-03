@@ -24,16 +24,21 @@
 }
 
 .title {
-    margin-top: 85px;
+    margin-top: 100px;
     color: white;
     text-align: center;
     font-size: 2rem;
     padding: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
+}
+.title p{
+    color: goldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
 }
 
 .col {
-    margin:auto;
+    margin-top: -70px;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -49,12 +54,15 @@
 
 input {
     width: 50%;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-color: transparent;
+    color :white;
+    background-color: transparent;
+    border: none;
+    /* border-color: transparent;
     border-radius: 5px;
-    height: 70px;
+    height: 70px; */
     text-align: center;
-    font-size: 35px;
+    font-size: 65px;
+    font-weight: 700;
 
 }
 .types{

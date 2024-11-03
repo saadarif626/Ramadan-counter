@@ -1,7 +1,7 @@
-document.getElementById("enddate").innerText=enddate;
+// document.getElementById("enddate").innerText=enddate;
+var enddate="28 February 2025 12:00 AM"
 var inputs=document.querySelectorAll("input")
 
-var enddate="28 February 2025 12:00 AM"
 function clock(){
     var end=new Date(enddate)
     var now= new Date();
